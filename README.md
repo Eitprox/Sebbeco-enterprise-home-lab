@@ -1,6 +1,6 @@
 # Sebbeco Enterprise Home Lab
 
-A virtual mini-enterprise environment built to develop practical skills in IT infrastructure, system administration, networking and cybersecurity.
+A virtual enterprise IT home lab focused on Windows and Linux administration, Active Directory, networking, and cybersecurity monitoring using Wazuh SIEM and Sysmon.
 
 ## Overview
 
