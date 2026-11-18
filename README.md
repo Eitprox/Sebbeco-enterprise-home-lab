@@ -90,6 +90,11 @@ Documentation:
 
 The screenshot shows the HR Organizational Unit with the `GPO-HR-ScreenLock-5min` Group Policy Object linked and enabled.
 
+### PowerShell Script Block Logging GPO
+
+![PowerShell Script Block Logging GPO](screenshots/powershell-script-block-gpo.png)
+
+The screenshot shows the Group Policy configuration enabling PowerShell Script Block Logging through Computer Configuration.
 
 Documentation:
 - [HR Screen Lock Policy](03-%20group-policy/hr-screen-lock.md)
