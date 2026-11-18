@@ -1,4 +1,3 @@
-
 # Virtual Machines
 
 This document describes the virtual machines used in the Sebbeco Enterprise Home Lab.
@@ -10,7 +9,7 @@ This document describes the virtual machines used in the Sebbeco Enterprise Home
 | Operating System | Windows Server 2025 Standard Evaluation |
 | Hostname | DC01 |
 | IP Address | 192.168.10.10 |
-| RAM | 4 GB |
+| RAM | 3 GB |
 | CPU | 2 vCPU |
 | Disk | 80 GB |
 | Role | Active Directory Domain Services and DNS |
@@ -22,10 +21,22 @@ This document describes the virtual machines used in the Sebbeco Enterprise Home
 | Operating System | Windows 11 Pro |
 | Hostname | CLIENT01 |
 | IP Address | 192.168.10.20 |
-| RAM | 6 GB |
+| RAM | 4 GB |
 | CPU | 2 vCPU |
 | Disk | 64–80 GB |
 | Role | Domain-connected client workstation |
+
+## SIEM Server – WAZUH01
+
+| Setting | Value |
+|---|---|
+| Operating System | Ubuntu Server 24.04.5 LTS |
+| Hostname | WAZUH01 |
+| IP Address | 192.168.10.30 |
+| RAM | 8 GB |
+| CPU | 4 vCPU |
+| Disk | 80 GB |
+| Role | Wazuh Manager, Indexer and Dashboard |
 
 ## Virtualization
 
@@ -35,4 +46,10 @@ This document describes the virtual machines used in the Sebbeco Enterprise Home
 
 ## Purpose
 
-The virtual machines simulate a small enterprise IT environment. DC01 provides centralized identity and DNS services, while CLIENT01 represents an employee workstation joined to the Active Directory domain.
+The virtual machines simulate a small enterprise IT environment.
+
+- DC01 provides centralized identity management through Active Directory Domain Services and DNS.
+- CLIENT01 represents an employee workstation joined to the Active Directory domain.
+- WAZUH01 provides centralized security monitoring and log analysis through Wazuh SIEM.
+
+Together, these systems provide an environment for practising Windows and Linux administration, networking, endpoint monitoring and cybersecurity investigations.
