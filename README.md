@@ -114,6 +114,12 @@ Implemented:
 - Raw JSON event archiving.
 - Centralized event investigation through Wazuh Discover.
 
+### Wazuh Agent Status
+
+![Wazuh Agent Status](screenshots/wazuh-agent-status.png)
+
+The screenshot confirms that the `CLIENT01` Windows 11 endpoint is actively connected to the Wazuh Manager.
+
 ### 5. Security Event Investigation
 
 Collected and investigated Windows endpoint events, including:
