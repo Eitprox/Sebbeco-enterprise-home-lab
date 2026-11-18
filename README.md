@@ -63,6 +63,13 @@ Documentation:
 - Joined CLIENT01 to the domain.
 - Verified domain authentication and the computer's secure channel.
 
+### Active Directory Structure
+
+![Active Directory OU Structure](screenshots/active-directory-ou-structure.png)
+
+The directory is organized into four departmental Organizational Units:
+IT, HR, Finance and Management.
+
 Documentation:
 - [Domain Configuration](02-%20active-directory/domain-configuration.md)
 - [Organizational Units](02-%20active-directory/organizational-units.md)
