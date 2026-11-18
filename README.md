@@ -83,6 +83,14 @@ Documentation:
 - Created a security GPO enabling PowerShell Script Block Logging.
 - Verified policy application using `gpupdate` and `gpresult`.
 
+
+### HR Group Policy Configuration
+
+![HR Group Policy Link](screenshots/hr-group-policy-link.png)
+
+The screenshot shows the HR Organizational Unit with the `GPO-HR-ScreenLock-5min` Group Policy Object linked and enabled.
+
+
 Documentation:
 - [HR Screen Lock Policy](03-%20group-policy/hr-screen-lock.md)
 - [PowerShell Script Block Logging](03-%20group-policy/powershell-script-block-logging.md)
